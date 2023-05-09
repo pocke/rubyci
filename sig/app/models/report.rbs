@@ -1,0 +1,3 @@
+class Report < ApplicationRecord
+  def self.get_reports_rubyci_s3: (Aws::S3::Resource s3, Server server) -> Integer?
+end
