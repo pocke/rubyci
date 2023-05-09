@@ -12,6 +12,10 @@ gem 'aws-sdk-s3', '~> 1'
 
 group :development do
   gem 'sqlite3'
+
+  gem 'rbs', require: false
+  gem 'rbs_rails', require: false
+  gem 'steep', require: false
 end
 
 group :production do
