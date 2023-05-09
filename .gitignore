@@ -16,3 +16,5 @@ public/assets/
 !/app/assets/builds/.keep
 
 /.gem_rbs_collection/
+/sig/prototype/
+/sig/rbs_rails/
